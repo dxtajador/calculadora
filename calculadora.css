@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Encabezado */
+.container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Texto informativo */
+.container p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Campo de entrada */
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover y focus en el input */
+.container input:focus {
+    border-color: #4caf50;
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Botón */
+.container button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Hover en el botón */
+.container button:hover {
+    background: #45a049;
+}
+
+/* Resultados */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4caf50;
+}
